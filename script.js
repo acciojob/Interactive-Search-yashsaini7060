@@ -2,5 +2,8 @@
 function test(){
 	let div=document.getElementById("searchdiv");
 	// alert(div)
+	
 	div.style.background = "blue";
+	div.focus();
+	document.getElementByClass("btn")[0].focus();
 }
